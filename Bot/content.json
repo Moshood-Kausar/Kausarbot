@@ -1,0 +1,148 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Good morning","Good afternoon","Good evening","YO!","Xup","How far", "Whats up"],
+         "responses": ["Hello!, what's your name? (Format: my name is...)",  "Hi there,What's your name?  (Format: my name is...) " ,"Good day!,What's your name? (Format: my name is...) "],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye","Good night", "I am Leaving", "Bye", "Have a Good day"],
+         "responses": [ "Talk to you later", "Goodbye!", "Nice chatting with you."],
+         "context_set": ""
+        },
+        {"tag": " positivefeelings",
+         "patterns": ["fine", "great", "good", "happy","better", "amazed", "fantastic"],
+         "responses": ["That's nice to hear, What can I help you with? (Format:I want...)"],
+         "context_set": ""
+        },
+        {"tag": "negativefeelings",
+         "patterns": ["sad", "not happy", "depressed", "moody", "bored","not fine", "unhappy"],
+         "responses": ["Really? You have so many reasons to smile and be Happy. I'd love to help you. Can i ask you few questions?(YES or NO)", "Don't be! Life is full of fun and I'd love to help you. Can i ask you few questions?(YES or NO)"],
+         "context_set": ""
+        },
+        {"tag": "frustrated",
+         "patterns": ["sad", "i am sad", "i'm sad", "depressed", "i am depresssed", "moody", "bored","not fine","frustrated", "unhappy", "not okay","not happy", "not"],
+         "responses": ["Really? You have so many reasons to smile and be Happy. I'd love to help you. Can i ask you few questions?(YES or NO)", "I'm so sorry to hear that. Can I try to help?(YES or NO)"],
+         "context_set": ""
+        },
+        {"tag": "suicide",
+         "patterns": ["i want to commit suicide", "i want to die", " I want to kill myself","kill", "I'm tired of life"],
+         "responses": ["That's really bad. When life gives you limes, turn it to smile. Please, I want you to try something. Is it possible to breath through your nose while smiling? (Possible/impossible)"],
+         "context_set": ""
+        },
+        {"tag": "possible",
+         "patterns": ["Possible"],
+         "responses": ["Of course, YOU CAN! I just wanted you to smile! Everyone wants hapiness, No one wants pain, but you can't have a rainbow without a little rain. Remember this, the greater the storm; the brighter the RAINBOW!!! If I could give you one thing in life, I would give you the ability to see yourself through my chat; only then would you realize how SPECIAL you are! Something came to my mind when i saw your message...You wanna know???(Yes, I want to know/I don't care)"],
+         "context_set": ""
+        },
+        {"tag": "impossible",
+         "patterns": ["impossible"],
+         "responses": ["Try smiling while breathing through you nose again. Is it possible or impossible?"],
+         "context_set": ""
+        },
+        {"tag": "know",
+         "patterns": ["Yes, I want to know"],
+         "responses": ["As soon as I saw your message, I knew an adventure was going to happen. 1 universe, 9 planets, 204 countries, 809 Island, 7 seas, 7.8 billions people; I had the pleasure of meeting you. That's really amazing! I care about you and i want you to do more of what makes you happy. "],
+         "context_set": ""
+        },
+        {"tag": "dontcare",
+         "patterns": ["I don't care", "I dont care"],
+         "responses": ["Well, I really care about you. As soon as I saw your message, I knew an adventure was going to happen. 1 universe, 9 planets, 204 countries, 809 Island, 7 seas, 7.8 billions people; I had the pleasure of meeting you. That's really amazing! I care about you and i want you to do more of what makes you happy.You "],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "whats your name?", "my name is", "name is", "(.*)", "name"],
+         "responses": ["I'm Kausar ! it's my pleasure to meet you. How're you feeling today?"],
+         "context_set": ""
+        },
+        {"tag": "yes",
+         "patterns": ["yes"],
+         "responses": ["What are your hobbies?(format:My hobbies are...)"],
+         "context_set": ""
+        },
+        {"tag": "no",
+         "patterns": ["no", "I don't want to talk to anyone", "can we be friends", "people are avoiding me"],
+         "responses": ["Maybe I can't be there, but there's definitely something I can do. Whatever it is, let me know. Can we be friends? (YES or NO)"],
+         "context_set": ""
+        },
+        {"tag": "apreciation",
+         "patterns": ["Thank"],
+         "responses": ["No problem","No worries","My pleasure","Anytime"],
+         "context_set": ""
+        },
+        {"tag": "goggle",
+         "patterns": ["i want "],
+         "responses": ["Alright! Kindly, click on this link www.google.com/"],
+         "context_set": ""
+        },
+        {"tag": "compliment",
+         "patterns": ["nice" ,"okay"],
+         "responses": ["I'm happy you're happy", "Happy to help", "I'm glad you liked it"],
+         "context_set": ""
+        },
+        {"tag": "game",
+         "patterns": ["yeap", "can you be more Intresting","let's play a game" ],
+         "responses": ["Nice! Mention five beautiful creatures/things around you. Kindly mention 'flowers' as one of them because I love nature."],
+         "context_set": ""
+        },
+        {"tag": "gamea",
+         "patterns": ["flowers","flower"],
+         "responses": ["Oops! You missed one thing. You wanna know(yh or nah)"],
+         "context_set": ""
+        },
+        {"tag": "gameb",
+         "patterns": ["yh"],
+         "responses": ["You missed your name. You're a beautiful creature! Don't forget that...So, I WON! Should we continue?(Sure or never)"],
+         "context_set": ""
+        },
+        {"tag": "gamez",
+         "patterns": ["nah"],
+         "responses": ["i insist you know. You missed your name. You're a beautiful creature! Don't forget that...So, I WON! Should we continue?(Sure or never)"],
+         "context_set": ""
+        },
+        {"tag": "gamec",
+         "patterns": ["Sure", "can you make me smile", "can you make me laugh"],
+         "responses": ["Please, I want you to try something. Is it possible to breath through your nose while smiling? (Possible/impossible)"],
+         "context_set": ""
+        },
+        {"tag": "never",
+         "patterns": ["never", "can we play a game"],
+         "responses": ["Please, I want you to try something. Is it possible to breath through your nose while smiling? (Possible/impossible)"],
+         "context_set": ""
+        },
+        {"tag": "gamed",
+         "patterns": ["nop"],
+         "responses": ["Well, it's fine by me if you don't want to. Please, I want you to try something. Is it possible to breath through your nose while smiling? (Possible/impossible "],
+         "context_set": ""
+        },
+        {"tag": "referall",
+         "patterns": [""],
+         "responses": ["Oops! I don't understand kindly reply in one or two words. How are you feeling today?"],
+         "context_set": ""
+        },
+        {"tag": "riddles",
+         "patterns": ["Yes", "can you be Intresting", "i want to play games", "let's play a game", "can u make me laugh"],
+         "responses": ["How do you make number 7 an even number without addition, subtraction, multiplication or division of numbers? (In case you don't konow, reply with 'I'd love to know')"],
+         "context_set": ""
+        },
+        {"tag": "riddlesans",
+         "patterns": ["By removing letter s from seven to make 'even' as a word "],
+         "responses": ["That's correct! Thumbs up"],
+         "context_set": ""
+        },
+        {"tag": "riddlesans1",
+         "patterns": ["I'd love to know"],
+         "responses": ["Spelling the number '7', we have SEVEN. Exclude letter S we make EVEN. That's it!"],
+         "context_set": ""
+        },
+        {"tag": "riddles",
+         "patterns": ["Yes", "can you be Intresting", "i want to play games", "let's play a game", "can u make me laugh"],
+         "responses": ["How do you make number 7 an even number without addition, subtraction, multiplication or division?"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["My hobbies are", "dancing", "singing", "listening to music", "playing video games","sleeping", "playing"],
+         "responses": ["Intresting! Since they're what you like doing best, involve yourself in these activities to keep you busy and lively.Or should we play a game(yeap or nop)"],
+         "context_set": ""
+        }
+   ]
+}
