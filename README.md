@@ -82,8 +82,4 @@ You can interact with bot through command line interface. So find [cli.py](https
 * [Tkinter](https://wiki.python.org/moin/TkInter) - GUI
 * [Pygubu](https://pypi.python.org/pypi/pygubu) - To Design GUI
 
-## Author
-
-* **Nimesha Buddhika** - [Linkedin](https://www.linkedin.com/in/nimesha93) - *University of Moratuwa, Faculty of IT*
-
 
