@@ -18,8 +18,8 @@ Program requires following dependencies
 
 After successfully installation of above dependencies, you need to follow these steps in order to train the bot. 
 
-* You can find [data model](https://github.com/nimeshabuddhika/Tensorflow-Chatbot/blob/master/Bot/content.json) from */Bot/content.json* and change the content as you wish. 
-* Execute [train.py](https://github.com/nimeshabuddhika/Tensorflow-Chatbot/blob/master/Bot/train.py) file which is inside */Bot/* directory to train the model that you have prepared.
+* You can find  from */Bot/content.json* and change the content as you wish. 
+* Execute file which is inside */Bot/* directory to train the model that you have prepared.
 * Then, You are done!
 
 
